@@ -62,7 +62,7 @@ class _HistoryState extends State<History> {
               return ListTile(
                  title: Text(jam),
                 subtitle: Text(tggl),
-                trailing: Text("${int.parse(e.value.toString()) + 25}°"),
+                trailing: Text("${int.parse(e.value.toString())}°"),
               );
             }).toList();
 
